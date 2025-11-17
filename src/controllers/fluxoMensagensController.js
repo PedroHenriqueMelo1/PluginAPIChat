@@ -7,6 +7,6 @@ module.exports = {
     // exemplo:
     // await axios.post('https://url', { mensagem: 'resposta' })
 
-    res.json({ status: 'OK', recebido: true });
+    res.json({ status: 'OK', recebido: true , body: req.body});
   }
 };
